@@ -1,0 +1,16 @@
+public class box_class_vol {
+                    /*WAJP to calculate the volume of box  */
+ int l,b,h,v;
+                    public static void main (String args[]){
+                                        box_class_vol   ob= new box_class_vol ();
+                        ob.l=45;
+                        ob.b=89;
+                        ob.h=65;
+                        ob.v=ob.l*ob.b*ob.h;
+                        System.out.println("the volume of box is = "+ ob.v );
+
+
+                    }
+                    
+}
+
