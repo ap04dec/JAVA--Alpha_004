@@ -1,0 +1,15 @@
+public class area_of_triangle {
+                    int b;
+                    int h;
+                   float area;
+                    public static void main(String args[]){
+
+                                        area_of_triangle ob = new area_of_triangle();
+                                        ob.h=45;
+                                        ob.b=12;
+                                        ob.area=  (ob.b*ob.h )/2; 
+                                        System.out.print("AREA OF TRIANGLE :" + ob.area);
+
+                    }
+                    
+}
