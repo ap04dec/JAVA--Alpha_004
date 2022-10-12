@@ -1,0 +1,26 @@
+/*wajp define a class student with data members String name  int age and float cgpa 
+ * read the value for these variables from the user and display the results.
+ */
+import java.util.*;
+public class student {
+    String name;
+    int age;
+    float cgpa;
+    public static void main (String args[]){
+        student st =new student();
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the name =");
+        st.name=sc.next();
+        System.out.println("enter the age=");
+        st.age=sc.nextInt();
+        System.out.println("enter the CGPA=");
+        st.cgpa=sc.nextFloat();
+
+        System.out.println("NAME :"+st.name);
+        System.out.println("AGE :"+st.age);
+        System.out.println("C.G.P.A :"+st.cgpa);
+
+    }
+
+    
+}
