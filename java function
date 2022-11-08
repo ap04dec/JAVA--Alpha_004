@@ -1,0 +1,12 @@
+public class function {
+                    void message()//function declaration 
+                    {
+                                        System.out.println("hello everyone"); // function defination 
+                    }
+                    public static void main(String args[])
+                    {
+                                        function obj = new function();
+                                        obj.message();
+                    }
+                    
+}
