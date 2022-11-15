@@ -1,0 +1,25 @@
+//wajp to add three float numbers using function which return float data
+// type passing three parameter inside the function which is also float
+import java.util.Scanner;
+
+
+public class add3floatno_fubction {
+                    Float add(float p,float q,float r)
+                    {
+                                Scanner sc=new Scanner(System.in);    
+                           System.out.println("enter the value of p =");
+                           p=sc.nextFloat();
+                           System.out.println("enter the value of q =");
+                           q=sc.nextFloat();
+                           System.out.println("enter the value of r =");
+                           r=sc.nextFloat();
+                              return(p+q+r);
+                                
+                                  
+                    }
+                    public static void main (String args[])
+                    {
+                                        add3floatno_fubction ob =new add3floatno_fubction();
+                                    System.out.println(    ob.add ( 0f ,0f,0f));
+                    }
+}
