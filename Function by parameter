@@ -2,7 +2,7 @@ public class function_overloading {
                     void show(int p, int q)
 
                     {
-                       System.out.println(p*q);
+                       System.out.println("the multipliaction of "+ p +" and "+ q +"=" + p*q);
                     }
                     public static void main (String ar̥gs[])
                     {
