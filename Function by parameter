@@ -1,0 +1,13 @@
+public class function_overloading {
+                    void show(int p, int q)
+
+                    {
+                       System.out.println(p*q);
+                    }
+                    public static void main (String ar̥gs[])
+                    {
+                           function_overloading ob= new function_overloading();
+                           ob.show(10, 06);
+                    }
+                    
+}
