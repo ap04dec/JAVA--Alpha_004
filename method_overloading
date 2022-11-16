@@ -1,0 +1,29 @@
+/*WAJP define a class Compute with overloaded methods:-
+* void add()
+ * void add(int,int)
+ * double add(double,double,double)
+ * implement in java
+  */
+public class method_overloading1 {
+                    void add()
+                    {
+                                        int x=10 ,y=20;
+                                        System.out.println(x+y);
+                    }
+
+                    void add(int x,int y)
+                    {
+                        System.out.println(x+y);                
+                    }
+                    double add (double x, double y , double z)
+                    {
+                    return (x+y+z);
+                    }
+public static void main(String args [])
+{
+                    method_overloading1 ob= new method_overloading1();
+                    ob.add();
+                    ob.add(10, 78);
+                    ob.add(1.8,  7.9, 7.4);
+}
+}
