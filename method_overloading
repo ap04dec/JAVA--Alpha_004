@@ -24,6 +24,6 @@ public static void main(String args [])
                     method_overloading1 ob= new method_overloading1();
                     ob.add();
                     ob.add(10, 78);
-                    ob.add(1.8,  7.9, 7.4);
+                   System.out.println( ob.add(1.8,  7.9, 7.4));
 }
 }
