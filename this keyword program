@@ -1,0 +1,34 @@
+/* wajp to construct 3 functions with name display()
+1st functions is 2 para function and return the integer result.
+2nd function return the double value to implement this program of method overloading
+using this function*/
+public class tk3 {int x,y;
+                    double a,b,z;
+                    void display(){
+
+                    }
+                    void display(int x ,int y)
+                    { this.x=x;
+                                        this.y=y;
+                                        System.out.println(x + y);
+                                        
+
+                    }
+                    void display(double x , double y, double z)
+                    { 
+                    this.display(3,9);
+                           System.out.println(a+b+z);
+                           this.a=x;
+                           this.b=y;
+                           this.z=z;
+
+                    }
+                    public static void main(String args[]) {
+                                        tk3 ob =new tk3();
+                                        ob.display(1.2,2.1,3.3);
+                                        
+                                        //ob.display(1,2);
+
+                                        
+                    }
+}
