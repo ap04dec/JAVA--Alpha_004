@@ -1,0 +1,16 @@
+public class Constructor {
+                    int x,y;
+                    Constructor()
+                    {
+                                        int x ,y;
+                                        x=10; y=20;
+                                        this.x=78;
+                                        this.y=20;
+                                        System.out.println(x+""+y +"and "+this.x+" "+this.y);
+                    }
+                    public static void main (String args[])
+                    {
+                                        Constructor ob= new Constructor();
+                    }
+                    
+}
