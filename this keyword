@@ -1,0 +1,23 @@
+/*   **********************************THIS KEYWORD*************************************
+ * variable of the current class.
+ *  Function of the current class.
+ *  constrctuor of the current class.  
+ */
+public class TK {
+                    int x,y;
+                    void D1()
+                    {
+                                        this.x=10;
+                                        this.y=20;
+                                        this.x=x;
+                                        this.y=y;
+                                        System.out.println(x+y);
+                    }
+                    public static void main (String args[])
+                    {
+                                        TK obj = new  TK();
+                                      obj.D1();
+                                   
+                    }
+                    
+}
