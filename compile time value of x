@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class class_x {
+                    int x;
+                    public static void main(String args[])
+                    {
+                                        Scanner sc = new Scanner(System.in);
+                                        class_x ob= new class_x();
+                                        System.out.println("enter the value of x =");
+                                        ob.x=sc.nextInt();
+                                        System.out.println("value of x :"+ob.x);
+                    }
+                    
+}
