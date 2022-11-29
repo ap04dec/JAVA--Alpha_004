@@ -1,0 +1,34 @@
+public class box { 
+      double d,b,c;
+                    box()
+                    {
+                     System.out.println("deafult constructor");                   
+                    }
+                    box( double d)
+                    {
+                          System.out.println(d);
+                    }
+                    box (double d, double b, double c)
+                    {
+                                        this.d=d;
+                                        this.b=b;
+                                        this.c=c;
+
+                    }
+                    void volume(){
+                                        
+                                System.out.println(d*b*c);
+                    }
+                    public static void main(String args[])
+                    { box a = new box();
+                       
+              
+                         box b=new box(1.2);
+                         b.volume();
+
+
+
+                                       
+                    }
+                    
+}
