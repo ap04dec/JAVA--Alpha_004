@@ -1,0 +1,8 @@
+public class array1 {
+                public static void main(String args[]) 
+                {
+                                        int x[]={10,78,65};
+                                        System.out.println(x[0]+" "+x[1]);
+                }    
+                    
+}
