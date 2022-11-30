@@ -1,0 +1,35 @@
+/* wap to demonstrate the use of this keyword 
+ * 1. to initalize the variable of current  class 
+ * 2. to call the function of current class
+ * 3. to invoke construtor of current class.
+ */
+public class this_keyword {
+                    int  x;
+                    this_keyword()
+                    {
+
+                    }
+
+                    
+                    this_keyword(int a)
+                    { 
+                                        this.x=a;
+                                        
+
+                    }
+                    void show()
+                                        {
+                                           System.out.println("vslue of ="+this.x);
+
+                                        }
+                    public static void main(String args[])
+                    {
+                                        this_keyword ob =new this_keyword();
+                                        this_keyword ob1 =new this_keyword(5);
+
+                                        ob1.show();
+
+
+                    }
+}
+
