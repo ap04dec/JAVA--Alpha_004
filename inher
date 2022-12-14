@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+/*define a class base with MF void ShowMethod define a class Child derived from base. 
+Child modifies the defination of ShowMethod proove that the dervived  ShowMethod two different method exist in the scenario 
+implement in java.....
+ */
+public class inher {
+                    String mess;
+                    Scanner sc =new Scanner(System.in);
+                    void ShowMethod()
+                    { 
+                                        System.out.print("enter the message for base class =");
+                                        mess =sc.next();
+                                        System.out.println("the base class showmethod is call  AND MESSAGE :"+ mess);
+                    }
+
+                    
+}
+class child1 extends inher{
+                    String messa;
+                    void ShowMethod()
+                    {
+                                        System.out.print("enter the message for child class =");
+                                           messa =sc.next();
+                                         System.out.println("the child class showmethod is call AND MESSAGE :" + messa);
+
+                    }
+                    public static void main(String args[])
+                    { inher on = new inher();
+                                        child1 ob = new child1();
+                                        on.ShowMethod();
+                                        ob.ShowMethod();
+
+                    }
+}
