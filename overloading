@@ -1,0 +1,30 @@
+public class overloading {
+                void f0()
+                {
+                    System.out.println("hell");
+                }   
+                    
+}
+class sub extends overloading
+{
+                    void f2()
+                    {
+
+                          System.out.println("hello");
+                    }
+public static void main (String args[])
+{ overloading r;
+                    sub r1;
+                    overloading ob1 =new overloading();
+                    sub ob2 = new sub();
+                    r=ob1;
+                    r1= ob2;
+                    r.f0();
+                    r1.f2();
+//                     r=null;
+//                    r.f1();
+
+
+}
+}
+
