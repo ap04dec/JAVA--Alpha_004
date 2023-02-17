@@ -1,3 +1,4 @@
+import java.util.*;
 class example
 
 {
@@ -21,7 +22,7 @@ public class mainmethod extends example
 	public static void main(String args[])
 	{
 		mainmethod on =new mainmethod();
-		on.swap();
+		on.Swap();
 
 	}
 }
