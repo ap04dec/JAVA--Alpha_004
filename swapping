@@ -1,0 +1,27 @@
+class example
+
+{
+	//int e1,e2;
+	Scanner sc=new Scanner (System.in);
+	int e1 =sc.nextInt();
+	int e2 =sc.nextInt();
+}	
+public class mainmethod extends example
+{
+	void Swap()
+	{
+		int temp =e1;
+		e1=e2;
+		e2=temp;
+		System.out.println("after swapping of a and b is ="+e1+" "+e2);
+	}
+
+
+
+	public static void main(String args[])
+	{
+		mainmethod on =new mainmethod();
+		on.swap();
+
+	}
+}
