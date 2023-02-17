@@ -1,0 +1,9 @@
+class Wrapperclass 
+{
+	public static void main(String[] args) 
+	{int a=1;  
+	Integer i =Integer.valueof(a);
+	 Integer j=i;
+	 System.out.println(a +""+i+""+j);
+	}
+}
