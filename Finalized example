@@ -1,0 +1,15 @@
+class FInalizedExample 
+{
+	public static void main(String[] args) 
+	{
+		 FInalizedExample ob = new  FInalizedExample ();
+		
+		System.out.println("ID is ="+ob);
+		ob=null;
+		System.gc();
+		System.out.println("end of the garbage collection");
+	}
+	protected void finalize()
+	{System.out.println("end of the finalized");
+	}
+}
