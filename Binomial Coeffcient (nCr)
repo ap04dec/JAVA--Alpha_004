@@ -1,0 +1,30 @@
+public class binomialcoeff {
+
+    public static int  factorial(int n) {
+        int f =1;
+        for (int i=1;i<=n;i++){
+            f=f*i;
+        }
+        return f; 
+    }
+    
+    
+    public static int  bino(int n, int r) {
+             
+    int n_fact = factorial(n)  ;
+
+    int fact_r = factorial(r);
+
+    int nmr_fact = factorial(n-r);
+
+    int binoCoff= n_fact/(fact_r * nmr_fact);
+
+    return binoCoff;
+    }
+
+    public static void main(String args[])
+    {
+           System.out.println(bino( 5,2 ));
+    }
+    
+}
