@@ -1,0 +1,18 @@
+package Arrays;
+import java.util.*;
+public class Largest_number {
+    public static int GetLargest(int number[]) {
+        int largest = Integer.MIN_VALUE;   //-ve infinty
+    for(int i=0;i<number.length;i++){
+         if(largest<number[i])
+         {
+            largest= number[i];
+         }
+    }
+    return largest;
+    }  
+    public static void main(String args[]   ) {
+        int number[]={1,2,3,4,5};
+        System.out.println("largest value is ="+GetLargest(number));
+    }
+}
